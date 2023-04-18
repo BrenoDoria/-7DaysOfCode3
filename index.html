@@ -72,18 +72,18 @@
         if (backEnd === "1"){
             alert ("Voçê escolheu C#!");
             alert ("Deseja seguir se especializando na área escolhida ou quer tornar Fullstack");
-            var contC# = prompt(nome + ", Digite 1 se você pretende continuar a se especializar nesta área ou 2 se prefere virar Fullstack.");
-            while (contC# !== "1" && contC# !== "2") {
+            var contC = prompt(nome + ", Digite 1 se você pretende continuar a se especializar nesta área ou 2 se prefere virar Fullstack.");
+            while (contC !== "1" && contC !== "2") {
                 alert("Resposta inválida. Por favor, responda com 1 ou 2.");
-                contC# = prompt(nome + ", Digite 1 se você pretende continuar a se especializar nesta área ou 2 se prefere virar Fullstack.");
-                if (contC# !== "1" && contC# !== "2") {
+                contC = prompt(nome + ", Digite 1 se você pretende continuar a se especializar nesta área ou 2 se prefere virar Fullstack.");
+                if (contC !== "1" && contC !== "2") {
                 alert("Resposta inválida. Por favor, responda com 1 ou 2.");
                 }
             }
-            if (react ==="1"){
-                alert("Meus Parabens " + nome + ", voçê esta determinado a se especializar e aprender contC#!")
+            if (contC ==="1"){
+                alert("Meus Parabens " + nome + ", voçê esta determinado a se especializar e aprender C#!")
             }
-            else if (react ==="2"){
+            else if (contC ==="2"){
                 alert("Meus Parabens " + nome + ", segue dados para voce se tornar um Fullstack!")
             }
         }
@@ -99,7 +99,7 @@
                 }
             }
             if (java ==="1"){
-                alert("Meus Parabens " + nome + ", voçê esta determinado a se especializar e aprender java!")
+                alert("Meus Parabens " + nome + ", voçê esta determinado a se especializar e aprender Java!")
             }
             else if (java ==="2"){
                 alert("Meus Parabens " + nome + ", segue dados para voce se tornar um Fullstack!")
