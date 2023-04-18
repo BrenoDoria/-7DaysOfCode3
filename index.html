@@ -2,28 +2,28 @@
 <meta charset="UTF-8">
 <script>
     var nome = prompt("Informe o seu nome");
-    var gostaDeLinguagem = prompt(nome + ", Qual linguagem de Programação voçê quer aprender? digite 1 para Front-End ou 2 para Back-End");
+    var gostaDeLinguagem = prompt(nome + ", Qual linguagem de Programação você quer aprender? digite 1 para Front-End ou 2 para Back-End");
 
     while (gostaDeLinguagem !== "1" && gostaDeLinguagem !== "2") {
         alert("Resposta inválida. Por favor, responda com 1 ou 2.");
-        gostaDeLinguagem = prompt(nome + ", Qual linguagem de Programação voçê quer estudar? digite 1 para Front-End ou 2 para Back-End");
+        gostaDeLinguagem = prompt(nome + ", Qual linguagem de Programação você quer estudar? digite 1 para Front-End ou 2 para Back-End");
         if (gostaDeLinguagem !== "1" && gostaDeLinguagem !== "2") {
             alert("Resposta inválida. Por favor, responda com 1 ou 2.");
         }
     }
     
     if (gostaDeLinguagem === "1") {
-        alert ("Voçê escolheu Front-End!");
-        var frontEnd = prompt(nome + ", Voçê que aprender React ou aprender Vue? digite 1 para React ou 2 para Vue.");
+        alert ("Você escolheu Front-End!");
+        var frontEnd = prompt(nome + ", Você que aprender React ou aprender Vue? digite 1 para React ou 2 para Vue.");
         while (frontEnd !== "1" && frontEnd !== "2") {
             alert("Resposta inválida. Por favor, responda com 1 ou 2.");
-            frontEnd = prompt(nome + ", Voçê que aprender React ou aprender Vue? digite 1 para React ou 2 para Vue.");
+            frontEnd = prompt(nome + ", Você que aprender React ou aprender Vue? digite 1 para React ou 2 para Vue.");
             if (frontEnd !== "1" && frontEnd !== "2") {
                 alert("Resposta inválida. Por favor, responda com 1 ou 2.");
             }
         }
         if (frontEnd === "1"){
-            alert ("Voçê escolheu React!");
+            alert ("Você escolheu React!");
             alert ("Deseja seguir se especializando na área escolhida ou quer tornar Fullstack");
             var react = prompt(nome + ", Digite 1 se você pretende continuar a se especializar nesta área ou 2 se prefere virar Fullstack.");
             while (react !== "1" && react !== "2") {
@@ -34,14 +34,14 @@
                 }
             }
             if (react ==="1"){
-                alert("Meus Parabens " + nome + ", voçê esta determinado a se especializar e aprender React!")
+                alert("Meus Parabens " + nome + ", você esta determinado a se especializar e aprender React!")
             }
             else if (react ==="2"){
                 alert("Meus Parabens " + nome + ", segue dados para voce se tornar um Fullstack!")
             }
         }
         else if (frontEnd === "2"){
-            alert ("Voçê escolheu Vue!");
+            alert ("Você escolheu Vue!");
             alert ("Deseja seguir se especializando na área escolhida ou quer tornar Fullstack");
             var vue = prompt(nome + ", Digite 1 se você pretende continuar a se especializar nesta área ou 2 se prefere virar Fullstack.");
             while (vue !== "1" && vue !== "2") {
@@ -52,7 +52,7 @@
                 }
             }
             if (vue ==="1"){
-                alert("Meus Parabens " + nome + ", voçê esta determinado a se especializar e aprender Vue!")
+                alert("Meus Parabens " + nome + ", você esta determinado a se especializar e aprender Vue!")
             }
             else if (vue ==="2"){
                 alert("Meus Parabens " + nome + ", segue dados para voce se tornar um Fullstack!")
@@ -60,17 +60,17 @@
         }
     }
     else if (gostaDeLinguagem === "2") {
-        alert ("Voçê escolheu Back-End!");
-        var backEnd = prompt(nome + ", Voçê que aprender C# ou Java? digite 1 para C# ou 2 para Java.");
+        alert ("Você escolheu Back-End!");
+        var backEnd = prompt(nome + ", Você que aprender C# ou Java? digite 1 para C# ou 2 para Java.");
         while (backEnd !== "1" && backEnd !== "2") {
             alert("Resposta inválida. Por favor, responda com 1 ou 2.");
-            backEnd = prompt(nome + ", Voçê que aprender C# ou Java? digite 1 para C# ou 2 para Java.");
+            backEnd = prompt(nome + ", Você que aprender C# ou Java? digite 1 para C# ou 2 para Java.");
             if (backEnd !== "1" && backEnd !== "2") {
                 alert("Resposta inválida. Por favor, responda com 1 ou 2.");
             }
         }
         if (backEnd === "1"){
-            alert ("Voçê escolheu C#!");
+            alert ("Você escolheu C#!");
             alert ("Deseja seguir se especializando na área escolhida ou quer tornar Fullstack");
             var contC = prompt(nome + ", Digite 1 se você pretende continuar a se especializar nesta área ou 2 se prefere virar Fullstack.");
             while (contC !== "1" && contC !== "2") {
@@ -81,14 +81,14 @@
                 }
             }
             if (contC ==="1"){
-                alert("Meus Parabens " + nome + ", voçê esta determinado a se especializar e aprender C#!")
+                alert("Meus Parabens " + nome + ", você esta determinado a se especializar e aprender C#!")
             }
             else if (contC ==="2"){
                 alert("Meus Parabens " + nome + ", segue dados para voce se tornar um Fullstack!")
             }
         }
         else if (backEnd === "2"){
-            alert ("Voçê escolheu Java!");
+            alert ("Você escolheu Java!");
             alert ("Deseja seguir se especializando na área escolhida ou quer tornar Fullstack");
             var java = prompt(nome + ", Digite 1 se você pretende continuar a se especializar nesta área ou 2 se prefere virar Fullstack.");
             while (java !== "1" && java !== "2") {
@@ -99,7 +99,7 @@
                 }
             }
             if (java ==="1"){
-                alert("Meus Parabens " + nome + ", voçê esta determinado a se especializar e aprender Java!")
+                alert("Meus Parabens " + nome + ", você esta determinado a se especializar e aprender Java!")
             }
             else if (java ==="2"){
                 alert("Meus Parabens " + nome + ", segue dados para voce se tornar um Fullstack!")
