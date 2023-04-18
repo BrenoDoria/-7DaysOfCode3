@@ -1,0 +1,48 @@
+
+<meta charset="UTF-8">
+<script>
+    var nome = prompt("Informe o seu nome");
+    var gostaDeLinguagem = prompt(nome + ", Qual linguagem de Programação voçê quer aprender? digite 1 para Front-End ou 2 para Back-End");
+
+    while (gostaDeLinguagem !== "1" && gostaDeLinguagem !== "2") {
+        gostaDeLinguagem = prompt(nome + ", Qual linguagem de Programação voçê quer estudar? digite 1 para Front-End ou 2 para Back-End");
+        if (gostaDeLinguagem !== "1" && gostaDeLinguagem !== "2") {
+            alert("Resposta inválida. Por favor, responda com 1 ou 2.");
+        }
+    }
+    
+    if (gostaDeLinguagem === "1") {
+        alert ("Voçê escolheu Front-End!");
+        var frontEnd = prompt("Voçê que aprender React ou aprender Vue? digite 1 para React ou 2 para Vue.");{
+            if (frontEnd === "1"){
+                alert ("Voçê escolheu React!");
+                var contReact = prompt("voce quer aprender ?");
+            }
+            else if (frontEnd === "2"){
+                alert ("Voçê escolheu Vue!");
+                var contVue = prompt("voce quer aprender?");
+            }
+            else{
+                alert("Resposta inválida. Por favor, responda com 1 ou 2.");
+            }
+        }
+    } 
+
+    else if (gostaDeLinguagem === "2") {
+        alert ("Voçê escolheu Back-End!");
+        var backend = prompt("Voçê que aprender C# ou Java? digite 1 para C# ou 2 para Java.");{
+            if (backend === "1"){
+                alert ("Voçê escolheu C#!");
+                var contC = prompt("voce quer aprender C# ou Java?");
+            }
+            else if (backend === "2"){
+                alert ("Voçê escolheu Java!");
+                var contJava = prompt("voce quer aprender C# ou Java?");
+            }
+            else{
+                alert("Resposta inválida. Por favor, responda com 1 ou 2.");
+            }
+        }
+    } 
+    
+</script>
